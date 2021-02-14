@@ -18,7 +18,8 @@ import java.util.UUID
 case class Manufacturer (
   name: String,
   homePage: Option[String] = None,
-  phone: Option[String] = None
+  phone: Option[String] = None,
+  testmodelinfo: Option[Testmodel] = None
 ) extends ApiModel
 
 

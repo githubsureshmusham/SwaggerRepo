@@ -16,7 +16,8 @@ import org.joda.time.DateTime
 import java.util.UUID
 
 case class Testmodel (
-  id: Option[Long] = None
+  id: Long,
+  name: Option[String] = None
 ) extends ApiModel
 
 
